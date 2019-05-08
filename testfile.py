@@ -12,3 +12,4 @@ for tr in table_rows:
     td = tr.find_all('td')
     row = [i.text for i in td]
     print(row)
+    
